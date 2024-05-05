@@ -3,7 +3,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "../store";
 
 export type Product = {
-  shop : number;
+  shop: number;
   shopId: number;
   shopName: string;
   shopImage_url: string;
@@ -11,7 +11,6 @@ export type Product = {
   id: number;
   title: string;
   price: number;
- // images: string | File[];
   images: (string | File)[];
   image_urls: string;
   rating: number;

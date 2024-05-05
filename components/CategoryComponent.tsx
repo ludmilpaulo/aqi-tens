@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
-import { Categoria } from '@/configs/variable';
+import { Categoria } from '../configs/variable';
 
 type Props = {
   category: Categoria;
